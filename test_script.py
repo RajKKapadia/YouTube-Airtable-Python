@@ -30,3 +30,12 @@ def update_record(table_name: str, filter: dict, update: dict) -> dict:
         return result
     else:
         return []
+    
+# result = create_record('users', {'username': 'x', 'password': 'y', 'status': 'inactive'})
+# print(result)
+
+# result = get_record('users', {'username': 'x'})
+# print(result)
+
+# result = update_record('users', {'username': 'x'}, {'username': 'xyz123'})
+# print(result)
